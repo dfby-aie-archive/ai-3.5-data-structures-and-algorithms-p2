@@ -264,7 +264,6 @@ Double the data, quadruple the work. This is why nobody sorts real data this way
 In Lesson 3.4 you sorted a list like this:
 
 ```java
-Collections.sort(catalogue);
 catalogue.sort(Comparator.comparing(CatalogueItem::price));
 ```
 
@@ -485,7 +484,7 @@ So the `HashMap` you have been using since Lesson 3.4 contains, in its worst mom
 
 ---
 
-## Part 10: Where This Shows Up in AI Engineering
+## Part 10: Where This Shows Up in AI Engineering (Optional)
 
 Everything in this lesson has been one idea: **discard most of the search space at every step.** That idea is not a Java curiosity. It is the reason modern AI systems can retrieve anything at all.
 
